@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Архітектурні Дива Світу</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Дивовижні Споруди Світу</h1>
+        <p>Подорож крізь камінь, скло та геніальність</p>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <div class="content">
+                <h2>Саґрада Фамілія</h2>
+                <p><strong>Місце:</strong> Барселона, Іспанія</p>
+                <p>Неймовірний собор Антоніо Гауді, який будується вже понад 140 років. Це поєднання природи, релігії та фантастичної архітектури.</p>
+            </div>
+        </section>
+
+        <section class="card">
+            <div class="content">
+                <h2>Бурдж Халіфа</h2>
+                <p><strong>Місце:</strong> Дубай, ОАЕ</p>
+                <p>Найвища споруда світу, висота якої сягає 828 метрів. Це справжній "вертикальний мегаполіс", що пронизує хмари.</p>
+            </div>
+        </section>
+
+        <section class="card">
+            <div class="content">
+                <h2>Мачу-Пікчу</h2>
+                <p><strong>Місце:</strong> Анди, Перу</p>
+                <p>Загублене місто інків, побудоване на висоті 2430 метрів. Його точне кам’яне мурування без розчину вражає вчених досі.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Світ Архітектури | Створено з натхненням</p>
+    </footer>
+
+</body>
+</html>
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #2c3e50, #000000);
+    color: white;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+
+.content {
+    padding: 20px;
+}
+
+h2 {
+    color: #e67e22;
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #2c3e50;
+    color: white;
+    margin-top: 40px;
+}
